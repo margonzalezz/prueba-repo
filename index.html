@@ -9,12 +9,181 @@
     <title>Prueba de animación</title>
 </head>
 <body>
-    <div class="animacion-texto">647622388
-        <p>texto animado</p>
+  <nav>
+    <div class="d-flex flex-row align-items-center justify-content-between container-fluid contenedor-nav">
+    <!-- INICIA OFFCANVAS -->
+    <div class="canvaShow">
+      <!-- INICIA BOTON HAMBURGUESA / OFF CANVAS-->
+      <div>
+      <a class="btn toggle-button" data-bs-toggle="offcanvas" href="#offCanvasNavbar" role="button" aria-controls="offCanvasNavbar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#daff8f" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+      </a>
+      </div>
+      <!-- TERMINA BOTON HAMBURGUESA -->
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offCanvasNavbar" aria-labelledby="offCanvasNavbarLabel">
+        <div class="offcanvas-header d-flex flex-row">
+          <a href="#">
+            <!-- MI CUENTA -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-person-circle" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+            </svg>
+            <div>
+                <p class="offcanvas-title fs-3 text-white cuenta" id="offCanvasNavbarLabel">MI CUENTA</p>              
+            </div>
+          </a>      
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <hr class="text-white">
+        <!-- TERMINA MI CUENTA -->
+        <div class="offcanvas-body">
+            <!-- NEW IN -->
+          <div>
+            <div class="dropdown mt-3">
+              <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">
+                NEW IN
+              </button>
+              <ul class="dropdown-menu bg-black">
+                <li><a class="dropdown-item text-white" href="pages/zapatillas.html">ZAPATILLAS</a></li>
+                <hr class="text-white">
+                <li><a class="dropdown-item text-white" href="pages/botas.html">BOTAS</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr class="text-white">
+            <!-- INICIA TEMPORADA ANTERIOR -->
+          <div>
+            <div class="dropdown mt-3">
+                <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">
+                  TEMPORADA ANTERIOR
+                </button>
+                <ul class="dropdown-menu bg-black">
+                  <li><a class="dropdown-item text-white" href="pages/sandalias.html">SANDALIAS</a></li>
+                  <hr class="text-white">
+                  <li><a class="dropdown-item text-white" href="pages/zapatos.html">ZAPATOS</a></li>
+                </ul>
+            </div>
+          </div>
+          <!-- TERMINA TEMPORADA ANTERIOR -->
+          <hr class="text-white">
+          <!-- INICIA OPCIONES DE CUENTA -->
+            <div class="op-cuenta">
+              <ul>
+                <li>
+                  <a href="#">DESCUENTOS</a>
+                </li>
+                <li>
+                  <a href="#">MIS COMPRAS</a>
+                </li>
+                <li>
+                  <a href="#">MIS FAVORITOS</a>
+                </li>
+              </ul>
+            </div> 
+              <!-- TERMINA OPCIONES DE CUENTA -->
+              <hr class="text-white">
+              <!-- INICIA NOSOTROS -->
+              <div>
+                  <div class="dropdown mt-3">
+                      <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">
+                        NOSOTROS
+                      </button>
+                      <ul class="dropdown-menu bg-black">
+                        <li><a class="dropdown-item text-white" href="#">Todas las sucursales</a></li>
+                        <hr class="text-white">
+                        <li><a class="dropdown-item text-white" href="#">Términos y condiciones</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <!-- TERMINA NOSOTROS -->
+              <hr class="text-white">
+              <!-- INICIA INFORMACIÓN -->
+              <div>
+                <div class="dropdown mt-3">
+                    <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">
+                      INFORMACIÓN
+                    </button>
+                    <ul class="dropdown-menu bg-black">
+                      <li><a class="dropdown-item text-white" href="#">Métodos de pago</a></li>
+                      <hr class="text-white">
+                      <li><a class="dropdown-item text-white" href="#">Envíos</a></li>
+                    </ul>
+                </div>
+            </div> 
+              <!-- TERMINA INFORMACIÓN -->
+              <hr class="text-white">
+              <!-- INICIA AYUDA -->
+              <div>
+                <div class="dropdown mt-3">
+                    <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">
+                      AYUDA
+                    </button>
+                    <ul class="dropdown-menu bg-black">
+                      <li><a class="dropdown-item text-white" href="#">Botón de arrepentimiento</a></li>
+                      <hr class="text-white">
+                      <li><a class="dropdown-item text-white" href="#">Preguntas frecuentes</a></li>
+                    </ul>
+                </div>
+            </div> 
+              <!-- TERMINA AYUDA -->
+              <hr class="text-white">
+                <!-- INICIA CONTACTANOS -->
+                <div>
+                  <p class="fs-5 text-white">CONTACTANOS</p>
+                  <!-- INSTAGRAM -->
+                  <a href="https://www.instagram.com/" target="_blank">
+                    <img src="https://img.icons8.com/fluency/48/null/instagram-new.png"/>
+                  </a>
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <img src="https://img.icons8.com/fluency/48/null/facebook.png"/>
+                  </a>
+                  <!-- WHATSAPP -->
+                  <a href="https://web.whatsapp.com/" target="_blank">
+                    <img src="https://img.icons8.com/color/48/null/whatsapp--v1.png"/> 
+                  </a>       
+                </div>
+                <!-- TERMINA CONTACTANOS -->
+                
+        </div>
+        <!-- TERMINA BODY OFFCANVAS -->
+      </div>
     </div>
+    <!-- TERMINA OFFCANVAS -->
+      <!-- INICIA LOGO -->
+      <div class="order-lg-1 navbar-logo">
+        <a href="index.html">
+          <img src="img/favicon.jpg" alt="logo de Mar's shoes">
+        </a>
+    </div>
+    <!-- TERMINA LOGO -->
+      <div class="order-lg-3 acciones">
+        <div class="navbar-collapse nav-actions">
+          <button class="fav">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                </svg>
+          </button>
+          <button class="shop">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+                </svg>
+          <button class="profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                </svg>
+          </button>
+        </div>
+        <!-- TERMINA BOTONERA DE ACCIONES DE LA NAV -->          
+    </div>
+  </div>
+</nav>
 
 
-
+<hr>
+<hr>
+<hr>
  <!-- ANUNCIO DE ENVIOS / DESCUENTOS / CUOTAS -->
  <section class="seccion-anuncio  d-flex flex-lg-row text-center">
     <!-- ENVIOS -->

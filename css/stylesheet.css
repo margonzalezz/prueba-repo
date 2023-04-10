@@ -1,20 +1,50 @@
-/* .animacion-texto{
-    width: 100%;
-    position: relative;
-    animation: texto 15s linear infinite;
+nav{
+  background-color:#c0a4fb;
 }
 
-@keyframes texto {
-    0%{
-        left: 0%;
-        transform: translateX(0%);
+.offcanvas{
+  background: rgb(192,164,251);
+  background: linear-gradient(180deg, #c0a4fbe2 35%, #ffbaff 100%);
+}
+  .offcanvas-header{
+    align-items: center;
+  }
+    .offcanvas-header .btn-close{
+      background-color: white;
     }
-    
-    100%{
-        left: 100%;
-        transform: translateX(100%);
+      .offcanvas-header a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+      }
+        .offcanvas-header a .cuenta{
+          margin-left: 20px;
+        }
+
+    .op-cuenta ul li{
+      list-style: none;
     }
-} */
+      .op-cuenta ul li a{
+        text-decoration: none;
+        color: white;
+      }
+
+/* BOTONERA DE ACCIONES DE LA NAV MOBILE*/
+.nav-actions button{
+  display: inline-block;
+  background-color:#c0a4fb;
+  color: #DAFF8E;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
 
 .seccion-anuncio{
     background-color:#c0a4fb;
