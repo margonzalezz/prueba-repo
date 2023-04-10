@@ -1,0 +1,55 @@
+/* .animacion-texto{
+    width: 100%;
+    position: relative;
+    animation: texto 15s linear infinite;
+}
+
+@keyframes texto {
+    0%{
+        left: 0%;
+        transform: translateX(0%);
+    }
+    
+    100%{
+        left: 100%;
+        transform: translateX(100%);
+    }
+} */
+
+.seccion-anuncio{
+    background-color:#c0a4fb;
+    width: 100%;
+}
+
+
+.contenedor-envios{
+    width: 100%;
+    position: relative;
+    animation: animation 11s linear infinite;
+}
+.contenedor-descuentos{
+    width: 100%;
+    position: relative;
+    animation: animation 11s linear infinite;
+}
+.contenedor-cuotas{
+    width: 100%;
+    position: relative;
+    animation: animation 11s linear infinite;
+}
+
+
+
+
+
+@keyframes animation {
+    0%{
+        left: 0%;
+        transform: translateX(0%);
+    }
+    
+    100%{
+        left: 100%;
+        transform: translateX(100%);
+    }
+}
