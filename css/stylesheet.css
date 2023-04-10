@@ -23,16 +23,19 @@
 
 
 .contenedor-envios{
+    background-color: #c0a4fb;
     width: 100%;
     position: relative;
     animation: animation 11s linear infinite;
 }
 .contenedor-descuentos{
+    background-color: #c0a4fb;
     width: 100%;
     position: relative;
     animation: animation 11s linear infinite;
 }
 .contenedor-cuotas{
+    background-color: #c0a4fb;
     width: 100%;
     position: relative;
     animation: animation 11s linear infinite;
