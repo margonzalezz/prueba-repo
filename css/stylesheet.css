@@ -1,3 +1,8 @@
+*{
+    overflow-x: hidden;
+}
+
+
 nav{
   background-color:#c0a4fb;
 }
